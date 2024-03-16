@@ -21,16 +21,11 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <div className={styles.header}>
           <h1 className={styles.title}>
-            Gasless Transactions with <br />
+           TiFi<br />
             <span className={styles.gradientText0}>
-              <a
-                href="https://thirdweb.com/embedded-wallets"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Smart & Embedded Wallets.
-              </a>
+               Marketplace 
             </span>
+             <img src="../public/images/tifimap.png></img>
           </h1>
 
           <div className={styles.connect}>
