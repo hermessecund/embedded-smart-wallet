@@ -23,11 +23,11 @@ const Home: NextPage = () => {
           <h1 className={styles.title}>
           TiFi  Marketplace  <br />            
           </h1>
-             <div className={styles.connect}>
+         <div className={styles.connect}>
             <ConnectWallet
               dropdownPosition={{
                 side: "top",
-                align: "right",
+                align: "center",
               }}
             />
 
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
                 </div>
               ))}
           </div>
-         <img src="/images/TIFIMAP.png" alt="TiFi Marketplace Map" />
+         <img src="/images/TIFIMAP.png" alt="TiFi Marketplace Map"  style={{ maxWidth: '100%', height: 'auto' }} />
        
         </div>
       </div>
