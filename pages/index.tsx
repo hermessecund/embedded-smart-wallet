@@ -21,13 +21,13 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <div className={styles.header}>
           <h1 className={styles.title}>
-           TiFi<br />
+          <br />
             <span className={styles.gradientText0}>
-               Marketplace 
+              TiFi  Marketplace 
             </span>
-             <img src="../public/images/tifimap.png"></img>
+            
           </h1>
-
+          <img src="../public/images/tifimap.png"></img>
           <div className={styles.connect}>
             <ConnectWallet
               dropdownPosition={{
