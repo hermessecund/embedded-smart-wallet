@@ -25,7 +25,7 @@ const Home: NextPage = () => {
             <span className={styles.gradientText0}>
                Marketplace 
             </span>
-             <img src="../public/images/tifimap.png></img>
+             <img src="../public/images/tifimap.png"></img>
           </h1>
 
           <div className={styles.connect}>
