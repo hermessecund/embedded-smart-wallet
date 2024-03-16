@@ -21,18 +21,13 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <div className={styles.header}>
           <h1 className={styles.title}>
-          <br />
-            <span className={styles.gradientText0}>
-              TiFi  Marketplace 
-            </span>
-            
+          TiFi  Marketplace  <br />            
           </h1>
-         <img src="/images/TIFIMAP.png" alt="TiFi Marketplace Map" />
-          <div className={styles.connect}>
+             <div className={styles.connect}>
             <ConnectWallet
               dropdownPosition={{
-                side: "bottom",
-                align: "center",
+                side: "top",
+                align: "right",
               }}
             />
 
@@ -71,6 +66,8 @@ const Home: NextPage = () => {
                 </div>
               ))}
           </div>
+         <img src="/images/TIFIMAP.png" alt="TiFi Marketplace Map" />
+       
         </div>
       </div>
     </main>
