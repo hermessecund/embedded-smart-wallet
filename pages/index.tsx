@@ -27,7 +27,7 @@ const Home: NextPage = () => {
             </span>
             
           </h1>
-         <img src="./public/images/tifimap.png" alt="TiFi Marketplace Map" />
+         <img src="/images/tifimap.png" alt="TiFi Marketplace Map" />
           <div className={styles.connect}>
             <ConnectWallet
               dropdownPosition={{
