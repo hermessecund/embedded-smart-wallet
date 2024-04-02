@@ -77,6 +77,18 @@ const Home: NextPage = () => {
         {/* Add your footer content here */}
         <p>Footer content goes here</p>
       </footer>
+      {/* Absolute div with background covering the entire screen */}
+      <div className={styles.absoluteWrapper}>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13225.474096078236!2d-6.7491399!3d34.0344167!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda741c7c4865a09%3A0x28359510c8b5cf49!2sIBRAHIM%20CAR!5e0!3m2!1sen!2sma!4v1712030992616!5m2!1sen!2sma"
+          width="600"
+          height="450"
+          style={{ border: "0" }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </div>
   );
 };
