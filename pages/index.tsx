@@ -10,6 +10,7 @@ import {
 import styles from "../styles/Home.module.css";
 import { NextPage } from "next";
 import { editionDropAddress } from "../const";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   const address = useAddress();
@@ -43,6 +44,12 @@ const Home: NextPage = () => {
         ) : (
           <p>Please log in with your Google account or email</p>
         )}
+        {/* Add the button leading to the gallery */}
+        <div className={styles.galleryButton}>
+          <Link href="/gallery">
+            <a>View Gallery</a>
+          </Link>
+        </div>
       </header>
       <main className={styles.main}>
         {/* Add your main content here */}
