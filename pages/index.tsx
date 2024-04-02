@@ -66,7 +66,7 @@ const Home: NextPage = () => {
                 </div>
               ))}
           </div>
-         <img src="/images/TIFIMAP.png" alt="TiFi Marketplace Map"  style={{ maxWidth: '100%', height: 'auto' }} />
+         <img src="/images/TIFIMAP.jpg" alt="TiFi Marketplace Map"  style={{ maxWidth: '100%', height: 'auto' }} />
        
         </div>
       </div>
