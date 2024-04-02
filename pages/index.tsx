@@ -20,7 +20,15 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <header className={styles.header}>
         <h1 className={styles.title}>ib-car</h1>
-        
+          <nav className={styles.nav}>
+          {/* Add your navigation links here */}
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            {/* Add more links as needed */}
+          </ul>
+        </nav>
         <ConnectWallet
           dropdownPosition={{
             side: "top",
