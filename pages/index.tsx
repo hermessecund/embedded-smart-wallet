@@ -21,7 +21,7 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <div className={styles.header}>
           <h1 className={styles.title}>
-          TiFi  Marketplace  <br />            
+          ib-car            
           </h1>
          <div className={styles.connect}>
             <ConnectWallet
